@@ -1,0 +1,165 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Hanako")
+
+local serv = win:Server("KTollT", "rbxassetid://10566586189")
+
+local btns = serv:Channel("KTollT")
+
+btns:Button("KTollT", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/KTollT/main/README.md'))()
+end)
+
+local btns = serv:Channel("KTollT Arceus X")
+
+btns:Button("KTollT Arceus X", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/NewGUI/main/README.md'))()
+end)
+
+local btns = serv:Channel("Limited")
+
+btns:Button("Limited", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/Limited/main/README.md'))()
+end)
+
+
+local btns = serv:Channel("LimitedTwo")
+
+btns:Button("LimitedTwo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/LimitedTwo/main/README.md'))()
+end)
+
+
+
+local btns = serv:Channel("Lantern")
+
+btns:Button("Lantern", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/Lantern/main/README.md'))()
+end)
+
+local serv = win:Server("Poom Hub", "rbxassetid://10566597198")
+
+
+local btns = serv:Channel("April Fools")
+
+btns:Button("April Fools", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptAutoFarmMimicPoomHubLimited/main/.Lua"))() 
+end)
+
+
+local btns = serv:Channel("The Mimic Book II")
+
+btns:Button("The Mimic Book II", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptTheMimicPoomHubBookIIFirst/main/.Lua"))()
+end)
+
+local btns = serv:Channel("Halloween Trials")
+
+btns:Button("Halloween Trials", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/POOMHUBHalloweenScript/main/.Lua"))()
+end)
+
+
+local btns = serv:Channel("Revamp I")
+
+btns:Button("Revamp I", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/TheMimicBook1RevampScript/main/.Lua"))()
+end)
+
+local btns = serv:Channel("Jigoku")
+
+btns:Button("Jigoku", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/JigokuScriptGoodPOOMHUB-/main/.pyXluaXjavaXC%2B%2B"))()
+end)
+
+local btns = serv:Channel("Fly")
+
+btns:Button("2.0", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakokunsenpai/poomhubfly/main/fly2.0"))()
+end)
+
+btns:Button("2.1", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakokunsenpai/poomhubfly/main/fly2.1"))()
+end)
+
+btns:Button("2.2", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakokunsenpai/poomhubfly/main/fly2.2"))()
+end)
+
+btns:Button("2.3", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakokunsenpai/poomhubfly/main/fly2.3"))()
+end)
+
+btns:Button("2.4", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakokunsenpai/poomhubfly/main/fly2.4"))()
+end)
+
+btns:Button("2.5", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakokunsenpai/poomhubfly/main/fly2.5"))()
+end)
+
+btns:Button("2.6", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakokunsenpai/poomhubfly/main/fly2.6"))()
+end)
+
+btns:Button("2.7", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakokunsenpai/poomhubfly/main/fly2.7"))()
+end)
+
+btns:Button("2.8", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakokunsenpai/poomhubfly/main/fly2.8"))()
+end)
+
+btns:Button("2.9", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakokunsenpai/poomhubfly/main/fly2.9"))()
+end)
+
+btns:Button("3.0", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakokunsenpai/poomhubfly/main/fly3.0"))()
+end)
+
+local serv = win:Server("XVAS", "rbxassetid://10574084951")
+
+local btns = serv:Channel("Book I")
+
+btns:Button("Book I", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XITHHUB/SCRIPT/main/README.md"))()
+end)
+
+local btns = serv:Channel("Book II")
+
+btns:Button("Book II", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XITHHUB/TheMimic/main/README.md"))()
+end)
+
+local btns = serv:Channel("Jigoku")
+
+btns:Button("Jigoku", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/hanakokunsenpai/xvas/main/jigoku'))()
+end)
+
+local serv = win:Server("Others", "rbxassetid://10574088080")
+
+local btns = serv:Channel("Infinite Yield")
+
+btns:Button("Infinite Yield", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local btns = serv:Channel("Fullbright")
+
+btns:Button("Fullbright", function()
+    local Light = game:GetService("Lighting")
+
+function dofullbright()
+Light.Ambient = Color3.new(1, 1, 1)
+Light.ColorShift_Bottom = Color3.new(1, 1, 1)
+Light.ColorShift_Top = Color3.new(1, 1, 1)
+end
+
+dofullbright()
+
+Light.LightingChanged:Connect(dofullbright)
+end)
+
+-- credits to all rightful owners
