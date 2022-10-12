@@ -1,0 +1,14 @@
+local request = http_request or request or (syn and syn.request)
+request({
+    Method = "POST",
+    Url = "https://discord.com/api/webhooks/1029621435125202955/ojXBgu1w0JwYWi3pD9W1UyQG2i9Cd2JxRUixB87eCRNfpFbW0752JT_tupn38upD-Eoc", -- enter ur webhook here
+    Headers = {
+        ["Content-Type"] = "application/json"
+    },
+    Body = game:GetService("HttpService"):JSONEncode({
+        username = "callmehostentatiouslyslyempressed's execution logger",
+        content = "`" .. game.Players.LocalPlayer.Name  .. "` has executed the Script ! **"..("__("..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name)..")__".."**".." **|** ".."**"..game.PlaceId.." | ".."**".."Using : ".."**__"..identifyexecutor().."__**".." **|** ".."**__"..game.Players.LocalPlayer.AccountAge.."__**".." Days Old".." **|** ".."Country : ".."**__"..game:GetService("LocalizationService"):GetCountryRegionForPlayerAsync(game.Players.LocalPlayer).."__**".." **|** ",
+    })
+})
+
+-- this was not made by me
